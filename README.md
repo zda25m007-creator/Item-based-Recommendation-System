@@ -74,7 +74,7 @@ Final Recommendations
 ---
 
 ## 📁 Project Structure
-
+```
 recommendation_system/
 │
 ├── data/
@@ -88,7 +88,7 @@ recommendation_system/
 ├── main.py # End-to-end pipeline
 ├── Testing_ReccSys.ipynb # Testing & analysis notebook
 └── README.md
-
+```
 
 ---
 
@@ -197,17 +197,3 @@ It serves as a strong foundation for further exploration in recommender systems 
 
 
 ---
-
-### 💡 Tip for GitHub
-**Repository description (one-liner):**
-> *Item-Based Collaborative Filtering recommender system implemented from scratch using core data structures and algorithms.*
-
----
-
-If you want, I can now:
-- Add **badges** (Python, MIT License, IIT)
-- Make a **1-page project poster**
-- Convert this into **final report text**
-- Prepare **viva Q&A from this README**
-
-Just tell me 👍
