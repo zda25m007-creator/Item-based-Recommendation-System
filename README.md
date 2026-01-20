@@ -91,7 +91,7 @@ recommendation_system/
 ```
 
 ---
-
+```
 ## 📊 Dataset Description
 
 - **Dataset:** MovieLens Latest Small  
@@ -125,11 +125,11 @@ recommendation_system/
 
 ### 🔹 Rating Prediction
 For user *u* and unseen item *i*:
-```
+
 \[
 \hat{r}_{u,i} = \frac{\sum sim(i,j)\cdot r_{u,j}}{\sum |sim(i,j)|}
 \]
-```
+
 ### 🔹 Top-N Recommendation
 - Uses a priority queue (`heapq`)
 - Time Complexity: **O(M′ log N)**
@@ -153,7 +153,7 @@ Evaluation is performed on an **80–20 train-test split** and compared against:
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Install Dependencies
-```bash
+```
 pip install numpy pandas matplotlib
 
 python main.py
@@ -197,4 +197,5 @@ It serves as a strong foundation for further exploration in recommender systems 
 
 
 ---
+
 
