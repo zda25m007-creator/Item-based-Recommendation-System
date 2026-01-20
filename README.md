@@ -126,10 +126,11 @@ recommendation_system/
 ### 🔹 Rating Prediction
 For user *u* and unseen item *i*:
 
-\[
-\hat{r}_{u,i} = \frac{\sum sim(i,j)\cdot r_{u,j}}{\sum |sim(i,j)|}
-\]
+### Rating Prediction Formula
 
+```
+r_hat(u, i) = Σ(sim(i, j) × r(u, j)) / Σ|sim(i, j)|
+```
 ### 🔹 Top-N Recommendation
 - Uses a priority queue (`heapq`)
 - Time Complexity: **O(M′ log N)**
@@ -158,26 +159,17 @@ pip install numpy pandas matplotlib
 
 python main.py
 ```
----
-3️⃣ Notebook (Optional)
 
-Open Testing_ReccSys.ipynb to inspect:
-
-Intermediate outputs
-
-Similarity matrices
-
-Evaluation results
 
 ---
 ✅ Key Highlights
-
+```
 ✔ Built entirely from scratch
 ✔ No black-box recommender libraries
 ✔ Strong focus on data structures & algorithms
 ✔ Efficient (< 1 second per user)
 ✔ Fully aligned with academic learning objectives
-
+```
 ---
 🔮 Future Enhancements
 
@@ -202,6 +194,7 @@ It serves as a strong foundation for further exploration in recommender systems 
 
 
 ---
+
 
 
 
