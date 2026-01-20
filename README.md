@@ -55,7 +55,7 @@ The system follows an **Item-Based Collaborative Filtering** approach:
 ---
 
 ## 🏗️ System Architecture
-
+```
 User–Item Ratings
 ↓
 Data Preprocessing
@@ -69,7 +69,7 @@ Rating Prediction Engine
 Priority Queue (Top-N Selection)
 ↓
 Final Recommendations
-
+```
 
 ---
 
@@ -125,11 +125,11 @@ recommendation_system/
 
 ### 🔹 Rating Prediction
 For user *u* and unseen item *i*:
-
+```
 \[
 \hat{r}_{u,i} = \frac{\sum sim(i,j)\cdot r_{u,j}}{\sum |sim(i,j)|}
 \]
-
+```
 ### 🔹 Top-N Recommendation
 - Uses a priority queue (`heapq`)
 - Time Complexity: **O(M′ log N)**
@@ -197,3 +197,4 @@ It serves as a strong foundation for further exploration in recommender systems 
 
 
 ---
+
