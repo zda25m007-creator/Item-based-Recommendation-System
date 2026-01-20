@@ -91,7 +91,7 @@ recommendation_system/
 ```
 
 ---
-```
+
 ## 📊 Dataset Description
 
 - **Dataset:** MovieLens Latest Small  
@@ -157,7 +157,8 @@ Evaluation is performed on an **80–20 train-test split** and compared against:
 pip install numpy pandas matplotlib
 
 python main.py
-
+```
+---
 3️⃣ Notebook (Optional)
 
 Open Testing_ReccSys.ipynb to inspect:
@@ -168,6 +169,7 @@ Similarity matrices
 
 Evaluation results
 
+---
 ✅ Key Highlights
 
 ✔ Built entirely from scratch
@@ -176,6 +178,7 @@ Evaluation results
 ✔ Efficient (< 1 second per user)
 ✔ Fully aligned with academic learning objectives
 
+---
 🔮 Future Enhancements
 
 Content-based or hybrid recommendation
@@ -184,12 +187,14 @@ Scalability to large datasets
 
 Web-based user interface
 
+---
 📚 References
 
 Sarwar et al., Item-Based Collaborative Filtering Recommendation Algorithms
 
 Herlocker et al., Evaluating Collaborative Filtering Recommender Systems
 
+---
 🏁 Conclusion
 
 This project demonstrates how a real-world recommendation system can be built using fundamental programming concepts and data structures, providing both practical relevance and academic rigor.
@@ -197,5 +202,6 @@ It serves as a strong foundation for further exploration in recommender systems 
 
 
 ---
+
 
 
